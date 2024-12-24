@@ -51,7 +51,7 @@ function App() {
         <div className="pt-4 p-10 m-20">
           <div className="flex flex-wrap items-start">
             <img 
-              src="./public/img/picture.jpeg" 
+              src={import.meta.env.BASE_URL + "./img/picture.jpeg"}
               style={{ height:'18rem' , maxHeight: '400px', borderRadius: '20px' }} 
               className="mr-10 mb-5 flex-shrink-0"
               alt="Picture"
