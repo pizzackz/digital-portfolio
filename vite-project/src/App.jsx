@@ -99,7 +99,7 @@ function App() {
                 Its purpose is to teach teenagers how to use an online broker.
                 <br /><br />
                 <img 
-                  src={import.meta.env.BASE_URL + ".media/virtutrade1.png" }
+                  src={import.meta.env.BASE_URL + "./media/virtutrade1.png" }
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', textAlign:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -160,7 +160,7 @@ function App() {
                 with the outcome as we were able to develop a working application in such a short time frame. <br /> <br />
               </p>
               <img 
-                  src={import.meta.env.BASE_URL + ".media/virtutrade.jpeg"}
+                  src={import.meta.env.BASE_URL + "./media/virtutrade.jpeg"}
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', justifyContent:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
