@@ -45,7 +45,7 @@ export function SidebarCustomContent() {
           <SidebarMenu>
             <SidebarMenuItem className='lg'>
               <SidebarMenuButton><FaMedium style={{height:'1.7em'}} />
-              <span style={{marginLeft:'2px', fontSize:'1rem', fontWeight:'700'}}>miguellouis/portfolio</span>
+              <a href='https://pizzackz.github.io/digital-portfolio'><span style={{marginLeft:'2px', fontSize:'1rem', fontWeight:'700'}}>miguellouis/portfolio</span></a>
               </SidebarMenuButton>
             </SidebarMenuItem>
           </SidebarMenu>

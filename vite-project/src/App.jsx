@@ -99,7 +99,7 @@ function App() {
                 Its purpose is to teach teenagers how to use an online broker.
                 <br /><br />
                 <img 
-                  src={import.meta.env.BASE_URL + "./public/media/virtutrade1.png" }
+                  src={import.meta.env.BASE_URL + ".media/virtutrade1.png" }
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', textAlign:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -160,7 +160,7 @@ function App() {
                 with the outcome as we were able to develop a working application in such a short time frame. <br /> <br />
               </p>
               <img 
-                  src={import.meta.env.BASE_URL + "./public/media/virtutrade.jpeg"}
+                  src={import.meta.env.BASE_URL + ".media/virtutrade.jpeg"}
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', justifyContent:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -180,7 +180,7 @@ function App() {
               tastefully, and earned an 'A' grade for the module App Security Project.
                 <br /><br />
                 <img 
-                  src={import.meta.env.BASE_URL + "./public/media/tastefully.jpeg"}
+                  src={import.meta.env.BASE_URL + "./media/tastefully.jpeg"}
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', textAlign:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -213,7 +213,7 @@ function App() {
                 Through this project, I managed to learn more about cybersecurity, and I look forward to applying this in the future. <br /> <br />
               </p>
               <img 
-                  src={import.meta.env.BASE_URL + "./public/media/tastefully3.jpeg"}
+                  src={import.meta.env.BASE_URL + "./media/tastefully3.jpeg"}
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', justifyContent:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -230,7 +230,7 @@ function App() {
               Maison de Guzman is a restaurant website inspired by spanish, mexican, french and italian cuisines that allows users to order delivery online. This project achieved Distinction for the module Web Development.
                 <br /><br />
                 <img 
-                  src={import.meta.env.BASE_URL + "./public/media/mdg.png"}
+                  src={import.meta.env.BASE_URL + "./media/mdg.png"}
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', textAlign:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -251,7 +251,7 @@ function App() {
                 I had some problems at first with the Navbar, but I decided to leave it that way as I think it looks unique.<br /> <br />
               </p>
               <img 
-                  src={import.meta.env.BASE_URL + "./public/media/mdg1.png"}
+                  src={import.meta.env.BASE_URL + "./media/mdg1.png"}
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', justifyContent:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
