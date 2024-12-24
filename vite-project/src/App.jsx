@@ -5,7 +5,6 @@ import {
   SidebarInset,
   SidebarProvider
 } from "@/components/ui/sidebar"
-import '../src/img/picture.jpeg'
 import { GitHubLogoIcon, LinkedInLogoIcon, DownloadIcon } from '@radix-ui/react-icons'
 import { Phone, Mail } from 'lucide-react'
 import { useToast } from './hooks/use-toast'
@@ -52,7 +51,7 @@ function App() {
         <div className="pt-4 p-10 m-20">
           <div className="flex flex-wrap items-start">
             <img 
-              src="../src/img/picture.jpeg" 
+              src="./public/img/picture.jpeg" 
               style={{ height:'18rem' , maxHeight: '400px', borderRadius: '20px' }} 
               className="mr-10 mb-5 flex-shrink-0"
               alt="Picture"
@@ -68,7 +67,7 @@ function App() {
               </h3>
               <div className="mt-6" style={{textAlign:'center'}}>
                 <a
-                  href="/Resume_V1.pdf" // Replace with your file path
+                  href="./public/Resume_V1.pdf" // Replace with your file path
                   download="resume.pdf" // Specify the downloaded file name
                 >
                 <Button className="mr-2 m-1 bg-indigo-700"><DownloadIcon />Download Resume</Button>
@@ -100,7 +99,7 @@ function App() {
                 Its purpose is to teach teenagers how to use an online broker.
                 <br /><br />
                 <img 
-                  src="../src/media/virtutrade1.png" 
+                  src="./public/media/virtutrade1.png" 
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', textAlign:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -161,7 +160,7 @@ function App() {
                 with the outcome as we were able to develop a working application in such a short time frame. <br /> <br />
               </p>
               <img 
-                  src="../src/media/virtutrade.jpeg" 
+                  src="./public/media/virtutrade.jpeg" 
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', justifyContent:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -181,7 +180,7 @@ function App() {
               tastefully, and earned an 'A' grade for the module App Security Project.
                 <br /><br />
                 <img 
-                  src="../src/media/tastefully.jpeg" 
+                  src="./public/media/tastefully.jpeg" 
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', textAlign:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -214,7 +213,7 @@ function App() {
                 Through this project, I managed to learn more about cybersecurity, and I look forward to applying this in the future. <br /> <br />
               </p>
               <img 
-                  src="../src/media/tastefully3.jpeg" 
+                  src="./public/media/tastefully3.jpeg" 
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', justifyContent:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -231,7 +230,7 @@ function App() {
               Maison de Guzman is a restaurant website inspired by spanish, mexican, french and italian cuisines that allows users to order delivery online. This project achieved Distinction for the module Web Development.
                 <br /><br />
                 <img 
-                  src="../src/media/mdg.png" 
+                  src="./public/media/mdg.png" 
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', textAlign:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
@@ -252,7 +251,7 @@ function App() {
                 I had some problems at first with the Navbar, but I decided to leave it that way as I think it looks unique.<br /> <br />
               </p>
               <img 
-                  src="../src/media/mdg1.png" 
+                  src="./public/media/mdg1.png" 
                   style={{ height:'auto' , maxHeight: '400px', width:'auto', borderRadius: '20px', justifyContent:'center' }} 
                   className="mr-10 mb-5 flex-shrink-0"
                   alt="Picture"
