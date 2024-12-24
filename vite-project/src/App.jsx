@@ -120,7 +120,7 @@ function App() {
                       - Simplified and User-Friendly UI where users can hover over complex terms to find that their definition<br />
                       - Stock Search where users can search find the stock/cryptocurrency that they want to invest in<br />
                       - Order History where users can view their past orders, and the details (e.g. price they bought the stock at)<br />
-                      - Portfolio page where users can view all their positions, top up their cash balance<br />
+                      - Portfolio page where users can view all their positions, top up their cash balance <br />
                   </li><br />
 
                   <li>2. Investor Risk Profile Questionnaire<br />
